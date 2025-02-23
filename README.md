@@ -1,0 +1,4 @@
+# Incorrect Null Handling in JavaScript Function
+This repository demonstrates a common error in JavaScript: incorrect handling of null values in function parameters. The `foo` function is designed to add two numbers, but it incorrectly returns null when either parameter is null. This behavior can lead to unexpected results and errors in larger applications.
+
+The `bug.js` file contains the erroneous implementation, while the `bugSolution.js` file provides a corrected version that handles null values more appropriately.  The solution demonstrates two common approaches: returning NaN (Not a Number) or throwing a TypeError.
